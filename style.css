@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container img{
+    max-width: 400px;
+    transition: transform 0.5s ease,opacity 0.5s ease;
+    border-radius: 5px;
+    box-shadow: 10px 0 10px black;
+}
+.btn{
+font-size: 2.5rem;
+margin-left: 20px; 
+color:navy;
+cursor: pointer;
+}
+#previous{
+    position: absolute;
+    left: 29%;
+}
+.txt{
+    position: absolute;
+    bottom: 3%;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.txt span{
+    color:red;
+}
